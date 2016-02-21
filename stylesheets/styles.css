@@ -6,6 +6,9 @@ body {
   width: 100%;
   font-family: "Work Sans";
 
+  transition: 1s;
+  -webkit-transition: 1s;
+
 }
 
 
@@ -93,7 +96,8 @@ a.selected {
       margin-top: 11px;
       position: absolute;
 
-      font-family: "Work Sans"
+      font-family: "Work Sans";
+      font-weight: lighter;
     }
 
 #menu {
@@ -119,22 +123,31 @@ a.selected {
   width: 65%;
   margin-left: 95px;
   background-color: white;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+
 
   position: absolute;
 }
 
 #maincontent {
-
+padding-top: 30px;
 }
 
+#maincontent p {
+  width: 70%;
+  margin-bottom: 30px;
+}
 #maincontent img {
+  margin-bottom: 30px;
+}
+
+#mainpage img{
   float: left;
   margin-bottom: 30px;
-
+  border: 2px solid black;
 }
-
+.borderchange {
+  border: 2px solid rgb(112, 0, 255);
+}
 
 #Nat {
 

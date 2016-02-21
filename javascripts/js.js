@@ -5,6 +5,12 @@ $(document).ready(function() {
     $('#Nat').removeClass('underline');
   });
 
+  $('#img1').mouseenter(function() {
+    $(this).css('border','2px solid rgb(112, 0, 255)');
+  }).mouseleave(function() {
+    $(this).css('border','2px solid black');
+  });
+
   $('#img2').mouseenter(function() {
     $('#SOW').addClass('underline');
   }).mouseleave(function() {
