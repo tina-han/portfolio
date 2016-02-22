@@ -17,6 +17,27 @@ $(document).ready(function() {
     $('#SOW').removeClass('underline');
   });
 
+  $('#img2').mouseenter(function() {
+    $(this).css('border','2px solid rgb(112, 0, 255)');
+  }).mouseleave(function() {
+    $(this).css('border','2px solid black');
+  });
+
+  $('#img3').mouseenter(function() {
+    $('#OS').addClass('underline');
+  }).mouseleave(function() {
+    $('#OS').removeClass('underline');
+  });
+
+  $('#img3').mouseenter(function() {
+    $(this).css('border','2px solid rgb(112, 0, 255)');
+  }).mouseleave(function() {
+    $(this).css('border','2px solid black');
+  });
+
+
+
+
 
   function deselect(e) {
     $('.pop').slideFadeToggle(function() {
