@@ -79,6 +79,8 @@ a.selected {
 .messagepop p, .messagepop.div {
   margin: 8px 0;
   padding-bottom: 8px;
+  font-family: 'Work Sans';
+  font-weight: 500;
 }
 
     .worktitle {
