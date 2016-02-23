@@ -46,7 +46,7 @@ $(document).ready(function() {
   }
 
   $(function() {
-    $('#name').on('click', function() {
+    $('#about').on('click', function() {
       if($(this).hasClass('selected')) {
         deselect($(this));
       } else {
@@ -57,7 +57,7 @@ $(document).ready(function() {
     });
 
     $('.close').on('click', function() {
-      deselect($('#name'));
+      deselect($('#about'));
       return false;
     });
   });

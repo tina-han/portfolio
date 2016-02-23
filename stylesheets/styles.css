@@ -22,7 +22,6 @@ body {
 
 h1 {
   font-size: 2em;
-  line-height: 3em;
 }
 
 a {
@@ -57,6 +56,11 @@ a:hover {
   text-transform: uppercase;
 }
 
+#about {
+  font-size: 1em;
+  font-family: 'Work Sans';
+  font-weight: normal;
+}
 
 a.selected {
   color: rgb(112, 0, 255);
@@ -68,7 +72,7 @@ a.selected {
   border:3px solid rgb(112, 0, 255);
   cursor:default;
   display:none;
-  margin-top: 100px;
+  margin-top: 130px;
   position:absolute;
   text-align:left;
   width:400px;
@@ -99,7 +103,7 @@ a.selected {
       position: absolute;
 
       font-family: "Work Sans";
-      font-weight: 500;
+      font-weight: lighter;;
     }
 
 #menu {
@@ -123,7 +127,7 @@ a.selected {
 /*-------maincontent-------*/
 #contentbox {
   width: 65%;
-  margin-left: 95px;
+  margin-left: 97px;
   background-color: white;
 
 
@@ -135,26 +139,40 @@ padding-top: 30px;
 }
 
 #maincontent p {
-  width: 70%;
-  margin-bottom: 30px;
+
 }
+
+#caption {
+  font-size: .75em;
+  top: -70px;
+  left: 30px;
+  position: relative;
+}
+
 #maincontent img {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 #mainpage img{
   float: left;
   margin-bottom: 30px;
   border: 2px solid black;
+  width: 100%;
 }
 .borderchange {
   border: 2px solid rgb(112, 0, 255);
 }
 
-#Nat {
-
-}
-
   .underline{
     color: rgb(112, 0, 255);
   }
+
+.previous , .next {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.next {
+  float:right;
+}
