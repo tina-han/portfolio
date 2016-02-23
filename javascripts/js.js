@@ -47,6 +47,17 @@ $(document).ready(function() {
     $(this).css('border','2px solid black');
   });
 
+  $('#img5').mouseenter(function() {
+    $('#book').addClass('underline');
+  }).mouseleave(function() {
+    $('#book').removeClass('underline');
+  });
+
+  $('#img5').mouseenter(function() {
+    $(this).css('border','2px solid rgb(112, 0, 255)');
+  }).mouseleave(function() {
+    $(this).css('border','2px solid black');
+  });
 
 
 
