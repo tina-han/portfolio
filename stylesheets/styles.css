@@ -142,7 +142,7 @@ padding-top: 30px;
 
 }
 
-#caption {
+.caption {
   font-size: .75em;
   top: -70px;
   left: 30px;
@@ -164,9 +164,6 @@ padding-top: 30px;
   border: 2px solid rgb(112, 0, 255);
 }
 
-  .underline{
-    color: rgb(112, 0, 255);
-  }
 
 .previous , .next {
   font-size: 2em;
