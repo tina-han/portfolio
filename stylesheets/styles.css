@@ -141,7 +141,9 @@ padding-top: 30px;
 #maincontent p {
 
 }
-
+.underline {
+  color: rgb(112, 0, 255);
+}
 .caption {
   font-size: .75em;
   top: -70px;

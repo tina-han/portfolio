@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $('#img1').mouseenter(function() {
-    $('#Nat').addClass('underline');
+    $('#nat').addClass('underline');
   }).mouseleave(function() {
-    $('#Nat').removeClass('underline');
+    $('#nat').removeClass('underline');
   });
 
   $('#img1').mouseenter(function() {
@@ -12,9 +12,9 @@ $(document).ready(function() {
   });
 
   $('#img2').mouseenter(function() {
-    $('#SOW').addClass('underline');
+    $('#sow').addClass('underline');
   }).mouseleave(function() {
-    $('#SOW').removeClass('underline');
+    $('#sow').removeClass('underline');
   });
 
   $('#img2').mouseenter(function() {
@@ -24,12 +24,24 @@ $(document).ready(function() {
   });
 
   $('#img3').mouseenter(function() {
-    $('#OS').addClass('underline');
+    $('#os').addClass('underline');
   }).mouseleave(function() {
-    $('#OS').removeClass('underline');
+    $('#os').removeClass('underline');
   });
 
   $('#img3').mouseenter(function() {
+    $(this).css('border','2px solid rgb(112, 0, 255)');
+  }).mouseleave(function() {
+    $(this).css('border','2px solid black');
+  });
+
+  $('#img4').mouseenter(function() {
+    $('#tpin').addClass('underline');
+  }).mouseleave(function() {
+    $('#tpin').removeClass('underline');
+  });
+
+  $('#img4').mouseenter(function() {
     $(this).css('border','2px solid rgb(112, 0, 255)');
   }).mouseleave(function() {
     $(this).css('border','2px solid black');
