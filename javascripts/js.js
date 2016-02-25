@@ -59,8 +59,17 @@ $(document).ready(function() {
     $(this).css('border','2px solid black');
   });
 
-
-
+  //
+  // $('#about').click(function() {
+  //   $('.messagepop').animate({
+  //     top: '130px',
+  //     opacity: '1 '}, {
+  //       duration: 50,
+  //       specialEasing: {
+  //         height:"easeoutBounce"
+  //       }
+  //     });
+  // });
 
   function deselect(e) {
     $('.pop').slideFadeToggle(function() {

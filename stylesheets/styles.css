@@ -29,7 +29,6 @@ a {
   color: inherit;
 }
 a:active {
-  color: blue;
 }
 
 a:hover {
@@ -60,6 +59,7 @@ a:hover {
   font-size: 1em;
   font-family: 'Work Sans';
   font-weight: normal;
+  z-index: 100;
 }
 
 a.selected {
@@ -71,12 +71,12 @@ a.selected {
   background-color:#FFFFFF;
   border:3px solid rgb(112, 0, 255);
   cursor:default;
-  display:none;
+  display: none;
   margin-top: 130px;
   position:absolute;
   text-align:left;
   width:400px;
-  z-index:50;
+  z-index:-1;
   padding: 25px 20px 20px;
 }
 
