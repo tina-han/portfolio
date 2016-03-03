@@ -178,8 +178,24 @@ transition: .5s;
 
 }
 
-
+@media only screen and (min-width: 700px) {
+  .mobile-about {
+    display:none;
+  }
+  .mobile-name {
+    display:none;
+  }
+}
 @media only screen and (max-width: 700px) {
+  .mobile-about {
+    display:block;
+  }
+  .mobile-name {
+    display:block;
+    font-weight:bold;
+    font-size: 1.25em;
+    margin-bottom: 30px;
+  }
   #menu {
     display: none !important;
   }
@@ -201,7 +217,8 @@ transition: .5s;
 
   .arrows{
     position: fixed;
-    bottom: 50px;
+    bottom:2%;
     width: 80%;
+    font-weight: bolder;
   }
 }
