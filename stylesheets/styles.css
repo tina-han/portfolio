@@ -182,6 +182,7 @@ transition: .5s;
   .mobile-about {
     display:none;
   }
+
   .mobile-name {
     display:none;
   }
@@ -190,11 +191,14 @@ transition: .5s;
   .mobile-about {
     display:block;
   }
+  .mobile-about p {
+    font-size: .5em;
+  }
   .mobile-name {
     display:block;
     font-weight:bold;
     font-size: 1.25em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   #menu {
     display: none !important;
