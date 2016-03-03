@@ -4,7 +4,7 @@ html {
 body {
   margin: 0;
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: sans-serif;
 
   transition: 1s;
   -webkit-transition: 1s;
@@ -33,7 +33,6 @@ a:hover {
 #nav {
   z-index: 10000000;
   width: 250px;
-  font-family: 'Source Sans Pro', sans-serif;
 
   position: fixed;
 }
@@ -151,13 +150,18 @@ padding-top: 30px;
   width: 100%;
 }
 .borderchange {
-  border: 2px solid rgb(112, 0, 255);
+  border: 2px solid  rgb(112, 0, 255);
 }
 
-
+.arrows{
+  position: fixed;
+  bottom: 50px;
+  width: 65%;
+}
 .previous , .next {
   font-size: 2em;
   font-weight: bold;
+  color: rgb(112, 0, 255);
 }
 
 .next {
