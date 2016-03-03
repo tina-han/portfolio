@@ -96,8 +96,10 @@ a.selected {
 
 #menu {
   position: fixed;
-  right: 60px;
+  right: 5%;
   top: 80px;
+
+  transition: .5s
 
 }
 .fixed {
@@ -123,6 +125,7 @@ a.selected {
 
 #maincontent {
 padding-top: 30px;
+transition: .5s;
 }
 
 #maincontent p {
@@ -166,4 +169,39 @@ padding-top: 30px;
 
 .next {
   float:right;
+}
+
+/*-------Screen..-------*/
+
+@media only screen and (min-width: 1000px) {
+    
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  #menu {
+    display: none !important;
+  }
+
+  #nav {
+    display: none !important;
+  }
+
+  #contentbox {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    transition: .5s
+  }
+
+  #maincontent {
+    position: absolute;
+  }
+
+  .arrows{
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+  }
 }
