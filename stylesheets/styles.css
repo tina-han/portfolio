@@ -174,7 +174,7 @@ transition: .5s;
 /*-------Screen..-------*/
 
 @media only screen and (min-width: 1000px) {
-    
+
 
 }
 
@@ -192,7 +192,7 @@ transition: .5s;
     position: relative;
     margin: auto;
     width: 80%;
-    transition: .5s
+    transition: .5s;
   }
 
   #maincontent {
