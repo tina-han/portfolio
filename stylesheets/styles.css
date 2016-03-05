@@ -195,9 +195,14 @@ article p{
 padding-top: 30px;
 transition: .5s;
 }
-
-#maincontent p {
-
+.paragraph {
+  margin: 20px;
+}
+.paragraph p {
+  font-size: .75em;
+  width: 50%;
+  line-height: 1.25em;
+  font-weight: lighter;
 }
 .underline {
   color: rgb(112, 0, 255);
@@ -261,6 +266,10 @@ transition: .5s;
   }
   .mobile-about p {
     font-size: .5em;
+  }
+
+  .paragraph p {
+    width: 100%;
   }
   .mobile-name {
     display:block;
