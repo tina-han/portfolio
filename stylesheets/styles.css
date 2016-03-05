@@ -240,8 +240,10 @@ transition: .5s;
   color: rgb(112, 0, 255);
 }
 
+.home {
+  color: rgb(112, 0, 255);
+}
 .next {
-  float:right;
 }
 
 /*-------Screen..-------*/
