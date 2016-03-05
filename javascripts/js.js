@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('#desc').show(300);
+
   $('#img1').mouseenter(function() {
     $('#nat').addClass('underline');
   }).mouseleave(function() {
@@ -97,4 +99,5 @@ $(document).ready(function() {
   $.fn.slideFadeToggle = function(easing, callback) {
     return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
   };
+
 });
