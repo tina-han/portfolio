@@ -271,6 +271,7 @@ transition: .5s;
   }
   .mobile-about p {
     font-size: .5em;
+    margin-bottom: 10px;
   }
 
   .paragraph  {
