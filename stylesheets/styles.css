@@ -312,7 +312,7 @@ transition: .5s;
   }
   .arrows{
     position: relative;
-    bottom:2%;
+    margin-top: 40px;
     width: 100%;
     font-weight: bolder;
   }
