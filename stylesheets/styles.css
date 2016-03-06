@@ -279,8 +279,8 @@ transition: .5s;
   .mobile-name {
     display:block;
     font-weight:bold;
-    font-size: 1.25em;
-    margin-bottom: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
   }
   #menu {
     display: none !important;
@@ -305,6 +305,10 @@ transition: .5s;
     width:100%;
     margin: 0 auto;
     position: relative;
+  }
+  .paragraph {
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   .arrows{
     position: relative;
