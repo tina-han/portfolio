@@ -68,7 +68,7 @@ a.selected {
   margin-top: 130px;
   position:absolute;
   text-align:left;
-  width:400px;
+  width:310px;
   z-index:-1;
   padding: 25px 20px 20px;
 }
@@ -78,6 +78,7 @@ a.selected {
   padding-bottom: 8px;
   font-weight: 500;
   line-height: 1.5em;
+  font-size: .75em;
 }
 
     .worktitle {
@@ -300,10 +301,15 @@ transition: .5s;
     position: absolute;
   }
 
+  tbody {
+    width:100%;
+    margin: 0 auto;
+    position: relative;
+  }
   .arrows{
-    position: fixed;
+    position: relative;
     bottom:2%;
-    width: 80%;
+    width: 100%;
     font-weight: bolder;
   }
   .home {
