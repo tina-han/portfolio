@@ -62,6 +62,19 @@ $(document).ready(function() {
     $(this).css('border','2px solid black');
   });
 
+
+    $('#img6').mouseenter(function() {
+      $('#nyt').addClass('underline');
+    }).mouseleave(function() {
+      $('#nyt').removeClass('underline');
+    });
+
+    $('#img6').mouseenter(function() {
+      $(this).css('border','2px solid rgb(112, 0, 255)');
+    }).mouseleave(function() {
+      $(this).css('border','2px solid black');
+    });
+
   //
   // $('#about').click(function() {
   //   $('.messagepop').animate({
