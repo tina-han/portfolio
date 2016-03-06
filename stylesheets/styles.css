@@ -196,12 +196,13 @@ padding-top: 30px;
 transition: .5s;
 }
 .paragraph {
-  margin: 20px;
+  width: 60%;
+  margin: 100px auto;
+
 }
 .paragraph p {
   font-size: .75em;
-  width: 50%;
-  line-height: 1.25em;
+  line-height: 1.5em;
   font-weight: lighter;
 }
 .underline {
@@ -242,6 +243,7 @@ transition: .5s;
 
 .home {
   color: rgb(112, 0, 255);
+  display: none;
 }
 .next {
 }
@@ -270,7 +272,7 @@ transition: .5s;
     font-size: .5em;
   }
 
-  .paragraph p {
+  .paragraph  {
     width: 100%;
   }
   .mobile-name {
@@ -303,5 +305,8 @@ transition: .5s;
     bottom:2%;
     width: 80%;
     font-weight: bolder;
+  }
+  .home {
+    display: block;
   }
 }

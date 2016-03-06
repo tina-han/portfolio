@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#desc').show(300);
 
+
   $('#img1').mouseenter(function() {
     $('#nat').addClass('underline');
   }).mouseleave(function() {

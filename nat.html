@@ -5,8 +5,10 @@
   <title>Sanghee Han</title>
 
   <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="javascripts/swipebox-master/src/css/swipebox.css">
   <script type="text/javascript" src="javascripts/jquery-1.12.0.min.js"></script>
   <script src="javascripts/js.js"></script>
+  <script src="javascripts/swipebox-master/src/js/jquery.swipebox.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,300' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/png" href="img/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +51,7 @@
           <h2>
 
               <hgroup style="color: rgb(112, 0, 255);">
-                <a href="nat.html">
+                <a href="#">
                   <span class="worktype">branding</span>
                   <span class="worktitle">Nat.</span>
                 </a>
@@ -114,8 +116,9 @@
       <div class="mobile-name">
         Nat.
       </div>
+      <a href="img/page1_5.jpg" class="swipebox">
       <img src="img/page.jpg">
-
+      </a>
       <img src="img/animation.gif">
       <img src="img/animation2.gif">
       <img src="img/page2.jpg">
@@ -131,7 +134,7 @@
       <img src="img/page12.jpg">
       <img src="img/page13.jpg" style="margin-bottom:0 !important">
       <div class="paragraph" >
-      <p><b>Big, Mini World</b>—interative installation</p>
+      <p><b style="color:rgb(149, 201, 69)">Big, Mini World</b>—interative installation</p>
 
       <p>The idea for Big, Mini World came naturally from branding the Nat.
         As a natural history museum, the Nat explores the entirety of Earth’s
@@ -155,7 +158,7 @@
         <tbody>
           <tr valign="middle">
             <td width="20%" align="center">
-              <a href="tpin.html" class="previous">
+              <a href="book.html" class="previous">
                 ←
               </a>
             </td>
@@ -165,7 +168,7 @@
           </a>
         </td>
         <td width="20%" align="center">
-          <a href="nat.html" class="next">
+          <a href="sow.html" class="next">
             →
           </a>
         </td>
@@ -174,7 +177,13 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript">
+;( function( $ ) {
 
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
+</script>
 
 </body>
 
