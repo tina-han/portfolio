@@ -273,7 +273,7 @@ transition: .5s;
   }
 
   .paragraph  {
-    width: 100%;
+    width: 100% !important;
   }
   .mobile-name {
     display:block;
