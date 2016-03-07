@@ -16,8 +16,12 @@ body {
 /*-------general type-------*/
 h1 {
   font-size: 2em;
+  transition: .5s;
 }
 
+h2 {
+  transition: .5s;
+}
 
 a {
   text-decoration: none;
@@ -251,12 +255,72 @@ transition: .5s;
 
 /*-------Screen..-------*/
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
 
 
 }
+@media only screen and (max-width: 1150px) {
+  #menu {
 
-@media only screen and (min-width: 700px) {
+  }
+  h1 {
+    font-size: 1.5em;
+    transition: .5s;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .worktitle {
+    font-size: .8em;
+    transition: .5s;
+  }
+  .worktype {
+
+  }
+
+  #contentbox {
+    width: 55%;
+    margin-left: 97px;
+    background-color: white;
+
+
+    position: absolute;
+  }
+
+  #maincontent {
+  padding-top: 30px;
+  transition: .5s;
+  }
+
+  .arrows{
+    position: fixed;
+    bottom: 50px;
+    width: 55%;
+  }
+  .previous , .next {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(112, 0, 255);
+  }
+
+  .home {
+    color: rgb(112, 0, 255);
+    display: none;
+  }
+  .next {
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .worktype {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 760px) {
   .mobile-about {
     display:none;
   }
@@ -265,7 +329,7 @@ transition: .5s;
     display:none;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 760px) {
   .mobile-about {
     display:block;
     margin-bottom: 30px;
