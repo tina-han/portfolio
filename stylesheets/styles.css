@@ -317,6 +317,9 @@ transition: .5s;
   .worktype {
     display: none;
   }
+  .worktitle {
+    transition: 0s;
+  }
 }
 
 
