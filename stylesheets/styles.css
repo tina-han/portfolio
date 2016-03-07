@@ -274,7 +274,6 @@ transition: .5s;
   }
   .worktitle {
     font-size: .8em;
-    transition: .5s;
   }
   .worktype {
 
@@ -318,7 +317,6 @@ transition: .5s;
     display: none;
   }
   .worktitle {
-    transition: 0s;
   }
 }
 
