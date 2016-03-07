@@ -278,7 +278,11 @@ transition: .5s;
   .worktype {
 
   }
-
+  .paragraph  {
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
   #contentbox {
     width: 55%;
     margin-left: 97px;
