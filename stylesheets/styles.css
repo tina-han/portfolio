@@ -413,7 +413,11 @@ transition: .5s;
   }
 }
 
-
+@media only screen and (min-width: 760px) {
+  .mobile-about, .mobile-name {
+    display: none;
+  }
+}
 @media only screen and (min-width: 760px) and (max-width: 950px) {
   .worktype {
     display: none;
