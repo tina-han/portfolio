@@ -151,7 +151,6 @@ article p{
 .thumbnails {
   width: 100%;
   margin: 20px auto;
-  float: left;
   text-align: center;
   position: relative;
 }
@@ -159,7 +158,7 @@ article p{
 .thumbbox {
   width: 100px;
   height: 100px;
-  overflow: hidden; 
+  overflow: hidden;
 
   margin: 10px;
   display:inline-block;
