@@ -126,34 +126,78 @@
       <a href="img/page1_5.jpg" class="swipebox" rel="gallery-1">
         <img src="img/page.jpg">
       </a>
-      <div class="paragraph" style="width:55%">
-        <p>
-          The Nat is a reimagined identity for the Harvard Museum of Natural History.
-          With all age groups in mind, the branding focuses on generating natural
-          curiosity and excitement for the world and the human place in it.
-        </p>
-      </div>
-      <a href="img/page19.jpg" class="swipebox">
-        <img src="img/small/nat/page19.jpg">
-      </a>
       <div class="paragraph">
         <p>
-          The logo for the Nat derived from the idea of a
-          big world condensed all into a small dot, representing the museum itself.
+          This is a class assignment from my branding class, where the objective was to redesign
+          an existing museum. I was given the Harvard Museum of Natural History, and I began
+          the project by researching various aspects of the current museum.
         </p>
-        <p style="color:rgb(112, 0, 255);">
-          <a href="img/guideline.jpg" class="swipebox" rel="gallery-2" >logo guidelines</a>
-          <a href="img/guideline2.jpg" class="swipebox" rel="gallery-2"></a>
+      </div>
+      <div class="thumbnails" >
+        <div class="thumbbox">
+          <a href="img/nat_process.jpg" class="swipebox" rel="gallery-4">
+            <img src="img/nat_process.jpg">
+          </a>
+        </div>
+        <div class="thumbbox">
+          <a href="img/nat_process2.jpg" class="swipebox" rel="gallery-4">
+            <img src="img/nat_process2.jpg">
+          </a>
+        </div>
+        <div class="thumbbox">
+          <a href="img/nat_process3.jpg" class="swipebox" rel="gallery-4">
+            <img src="img/nat_process3.jpg">
+          </a>
+        </div>
+        <div class="thumbbox">
+          <a href="img/nat_process4.jpg" class="swipebox" rel="gallery-4">
+            <img src="img/nat_process4.jpg">
+          </a>
+        </div>
+        <div class="thumbbox">
+          <a href="img/nat_process5.jpg" class="swipebox" rel="gallery-4">
+            <img src="img/nat_process5.jpg">
+          </a>
+        </div>
+      </div>
+      <div class="paragraph">
+        <p>
+          I started the redesign process with mind maps, logo studies, word association
+          explorations and mood boards (click the thumbnails above to see process shots).
+          Then I looked for things I could improve in the existing brand. I noticed the name
+           was too long and wordy, so through naming exercises, I shortened it to a more catchy
+           and memorable name: The Nat. 35,000 children visit the museum every year, but the
+            current branding, which is too rooted in Harvard traditions, doesn’t seem to reach
+            a younger audience (only 15% of visitors are children). The new brand aims to
+            increase the amount of younger visitors by and generating curiosity and appreciation
+            in the natural world.
         </p>
       </div>
       <a href="img/animation2.gif" class="swipebox" rel="gallery-1">
         <img src="img/animation2.gif">
       </a>
+      <div class="paragraph">
+        <p>
+          The logo for the Nat derived from the idea of a
+          big world condensed all into a small dot. The illustrated world, which I named the
+          Nat Dot, is about looking closely into something to reveal the bigger picture inside.
+          The new logo is bold, simple and speaks to all age groups.
+        </p>
+      </div>
+      <a href="img/page19.jpg" class="swipebox">
+          <img src="img/small/nat/page19.jpg">
+      </a>
+      <div class="thumbnails">
+        <div class="thumbbox">
+          <a href="img/guideline.jpg" class="swipebox" rel="gallery-2" ><img src="img/guideline.jpg"></a>
+        </div>
+        <div class="thumbbox">
+          <a href="img/guideline2.jpg" class="swipebox" rel="gallery-2"><img src="img/guideline2.jpg"></a>
+        </div>
+      </div>
+
       <a href="img/animation.gif" class="swipebox" rel="gallery-1">
         <img src="img/animation.gif">
-      </a>
-      <a href="img/page2.jpg" class="swipebox" rel="gallery-1">
-        <img src="img/small/nat/page2.jpg">
       </a>
       <a href="img/page3.jpg" class="swipebox" rel="gallery-1">
         <img src="img/small/nat/page3.jpg">
@@ -196,14 +240,6 @@
         residues. In that sense, the Nat is a frozen microcosm of this planet.
         By taking an everyday object and blowing it up to a world of its own,
         the Big, Mini World explores the opposite.</p>
-
-        <p>As a permanent installation in the museum,
-        it encourages all the visitors to bring their own sample
-        of their world. It could be anything from leaves to a dustball
-        in their desk drawers. With the help of an assistant, the visitor will
-        receive a speciment inside a glass slide, which will be placed under the
-        Nat Microscope. In a matter of seconds, they will experience a world of
-        a vast smallness.</p>
       </div>
       <a href="img/page14.jpg" class="swipebox" rel="gallery-1">
         <img src="img/small/nat/page14.jpg">
@@ -211,6 +247,15 @@
       <a href="img/page15.jpg" class="swipebox" rel="gallery-1">
         <img src="img/small/nat/page15.jpg">
       </a>
+      <div class="paragraph">
+        <p>As a permanent installation in the museum,
+        it encourages all the visitors to bring their own sample
+        of their world. It could be anything from leaves to a dustball
+        in their desk drawers. With the help of an assistant, the visitor will
+        receive a specimen inside a glass slide, which will be placed under the
+        Nat Microscope. In a matter of seconds, they will experience a world of
+        a vast smallness.</p>
+      </div>
       <a href="img/page16.jpg" class="swipebox" rel="gallery-1">
         <img src="img/small/nat/page16.jpg">
       </a>
@@ -247,6 +292,15 @@
     	$( '.swipebox' ).swipebox();
 
     } )( jQuery );
+
+    $(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 100) {
+             $('#name').fadeOut(500);
+         }
+         else {
+             $('#name').fadeIn(500);
+         }
+    });
 </script>
 
 </body>

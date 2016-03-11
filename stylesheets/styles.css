@@ -1,10 +1,29 @@
+@font-face {
+  font-family: "calibre";
+  src: url(files/Calibre-Regular.otf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "calibre";
+  src: url(files/Calibre-Medium.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "calibre";
+  src: url(files/Calibre-Medium.otf);
+  font-weight: normal;
+}
+
 html {
 }
 
 body {
   margin: 0;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "calibre", sans-serif;
+  font-weight: lighter;
 
   transition: 1s;
   -webkit-transition: 1s;
@@ -17,10 +36,12 @@ body {
 h1 {
   font-size: 2em;
   transition: .5s;
+
 }
 
 h2 {
   transition: .5s;
+  margin: 13px 0;
 }
 
 a {
@@ -51,11 +72,11 @@ a:hover {
 }
 
 #name {
+  display: block;
 }
 
 #about {
   font-size: 1em;
-  font-weight: normal;
   z-index: 100;
 }
 
@@ -86,19 +107,17 @@ a.selected {
 }
 
     .worktitle {
-      font-weight: bold;
       font-size: 1em;
 
     }
 
     .worktype {
+      font-weight:lighter;
       font-size: .5em;
 
       margin-left: -80px;
-      margin-top: 11px;
+      margin-top: 9px;
       position: absolute;
-
-      font-weight: lighter;;
     }
 
 #menu {
@@ -123,10 +142,32 @@ a.selected {
 }
 
 article p{
+  font-weight: lighter;
   font-size: .75em;
 }
 #description {
   display: none;
+}
+.thumbnails {
+  width: 100%;
+  margin: 20px auto;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.thumbbox {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+
+  margin: 10px;
+  display:inline-block;
+  border: .5px solid black;
+}
+
+.thumbbox img  {
+  width: 250% !important;
 }
 .off {
   display:none;
@@ -201,14 +242,17 @@ padding-top: 30px;
 transition: .5s;
 }
 .paragraph {
-  width: 60%;
+  width: 70%;
   margin: 100px auto;
+
+  display: block;
 
 }
 .paragraph p {
-  font-size: .75em;
-  line-height: 1.5em;
   font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.5em;
+
 }
 .underline {
   color: rgb(112, 0, 255);
@@ -251,6 +295,7 @@ transition: .5s;
   display: none;
 }
 .next {
+
 }
 
 /*-------Screen..-------*/

@@ -165,6 +165,14 @@
     	$( '.swipebox' ).swipebox();
 
     } )( jQuery );
+    $(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 100) {
+             $('#name').fadeOut(500);
+         }
+         else {
+             $('#name').fadeIn(500);
+         }
+    });
 </script>
 </body>
 </html>

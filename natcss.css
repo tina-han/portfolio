@@ -1,0 +1,185 @@
+@font-face {
+ font-family: 'Circular';
+ src: url(CircularStd-Book.otf);
+ font-weight:normal;
+}
+
+@font-face {
+ font-family: 'Circular';
+ src: url(CircularStd-Bold.otf);
+ font-weight: bold;
+}
+
+@font-face {
+ font-family: 'Circular';
+ src: url(CircularStd-bolder.otf);
+ font-weight: bolder;
+}
+
+
+ body {
+   margin: 0;
+   font-family: 'Circular', sans-serif;
+ }
+
+ .big-container {
+   width: 100%;
+   margin: auto;
+
+ }
+ .small-container {
+   width: 70%;
+   margin: auto;
+ }
+ .meow {
+   position: absolute;
+   width: 100%;
+ }
+
+ .carousel {
+   width: 100%;
+   height: 450px;
+   overflow: hidden;
+ }
+ .carousel img {
+   width: 100%;
+ }
+
+ .carouseltitle {
+
+ }
+
+ header {
+ }
+ .navigation {
+   position: relative;
+   margin: 0 auto;
+   width: 70%;
+   height: 50px;
+   z-index: 10000000;
+   background-color: white;
+
+ }
+ .searchbox {
+   position: relative;
+   background-color: #94CA44;
+   height: 50px;
+   width: 50px;
+   float: right;
+ }
+ .logo {
+   float: left;
+   padding: 13px 30px;
+ }
+
+ #search {
+   padding: 17px;
+ }
+ nav {}
+
+ ul {
+   list-style-type: none;
+   display: inline-block;
+   float: right;
+
+   font-weight: normal;
+
+ }
+ li {
+   float: left;
+   padding-right: 20px;
+   padding-top: 4px;
+   text-transform: uppercase;
+   font-size: 10px;
+   color: #94CA44;
+ }
+
+ .secondbox {
+   margin-top: 50px;
+ }
+
+ h2 {
+   text-transform: uppercase;
+   color:#94CA44;
+   margin: 0;
+   font-size:23px;
+ }
+
+ h3 {
+   text-transform: uppercase;
+   color: rgb(166, 166, 166);
+   margin: 0;
+   font-size:23px;
+ }
+ .eventandblog {
+   width: 65%;
+   height: 100%;
+ }
+ .rightcol {
+   width:27%;
+   height: 200px;
+   float: right;
+   padding-left: 5px;
+ }
+ .hours {
+   margin-top: 30px;
+ }
+ .ticket {
+   background-color: #94CA44;
+   width: 100%;
+   height: 70px;
+ }
+ .woa {
+   float: left;
+   width: 100%;
+   border-left: 1px solid grey;
+   border-right: 1px solid grey;
+   padding-left: 3%;
+
+ }
+ .events {
+ }
+
+ .blogs {
+   margin-top: 50px;
+ }
+ .lol {
+ }
+ .article{
+   width: 100%;
+   display: block;
+   float: left;
+ }
+ .item-time {
+   color: rgb(203, 203, 203);
+   float: left;
+   width: 90px;
+   font-size: 20px;
+ }
+ .item-name {
+   float: left;
+   font-weight: bolder;
+   font-size: 20px;
+   color: rgb(85, 85, 85);
+ }
+ .item-author{
+   margin-top: 5px;
+   font-size: 12px;
+   font-weight: normal;
+ }
+.ticket {
+
+}
+p {
+
+  color: rgb(85, 85, 85);
+}
+
+ footer {
+
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background: rgb(236, 236, 236);
+   float:right;
+   margin-top: 100px;
+}
