@@ -159,12 +159,46 @@ article p{
   width: 100px;
   height: 100px;
   overflow: hidden;
+  background-size: cover;
 
   margin: 10px;
   display:inline-block;
   border: .5px solid black;
 }
+#b1 {
+   background:url(http://sangheehan.com/img/small/nat/natprocess.jpg);
+}
 
+#b2 {
+  background:url(http://sangheehan.com/img/small/nat/natprocess2.jpg);
+}
+
+#b3 {
+  background:url(http://sangheehan.com/img/small/nat/natprocess3.jpg);
+}
+
+#b4 {
+  background:url(http://sangheehan.com/img/small/nat/natprocess4.jpg);
+}
+
+#b5 {
+  background:url(http://sangheehan.com/img/small/nat/natprocess5.jpg);
+}
+
+.overlay {
+  background:rgba(112, 0, 255, .8);
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+.boxtext{
+  color:white;
+}
+.thumbbox:hover .overlay{
+  opacity:1;
+}
 .thumbbox img  {
   width: 250% !important;
 }
