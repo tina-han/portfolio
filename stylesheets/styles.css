@@ -109,6 +109,8 @@ a.selected {
     .worktitle {
       font-size: 1em;
 
+      transition: .5s;
+
     }
 
     .worktype {
@@ -118,6 +120,8 @@ a.selected {
       margin-left: -80px;
       margin-top: 9px;
       position: absolute;
+
+      transition: .5s;
     }
 
 #menu {
@@ -343,9 +347,9 @@ transition: .5s;
 
 
 }
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1250px) {
   #menu {
-
+    width: 150px;
   }
   h1 {
     font-size: 1.5em;
@@ -368,7 +372,7 @@ transition: .5s;
     margin-bottom: 30px;
   }
   #contentbox {
-    width: 55%;
+    width: 60%;
     margin-left: 97px;
     background-color: white;
 
@@ -384,7 +388,7 @@ transition: .5s;
   .arrows{
     position: fixed;
     bottom: 50px;
-    width: 55%;
+    width: 60%;
   }
   .previous , .next {
     font-size: 2em;
@@ -400,22 +404,19 @@ transition: .5s;
   }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1100px) {
   .worktype {
-    display: none;
+    margin-left: -60px;
+    transition: .5s;
   }
   .worktitle {
   }
 }
 
 
-@media only screen and (min-width: 760px) {
-  .mobile-about {
-    display:none;
-  }
-
-  .mobile-name {
-    display:none;
+@media only screen and (min-width: 760px) and (max-width: 950px) {
+  .worktype {
+    display: none;
   }
 }
 @media only screen and (max-width: 760px) {
@@ -472,5 +473,12 @@ transition: .5s;
   }
   .home {
     display: block;
+  }
+  .thumbbox {
+    width: 70px;
+    height: 70px;
+  }
+  .overlay {
+    padding:30px 0 66px 0;
   }
 }
