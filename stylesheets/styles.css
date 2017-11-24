@@ -473,10 +473,14 @@ transition: .5s;
     margin-bottom: 30px;
   }
   .arrows{
-    position: relative;
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+
+    /*position: relative;
     margin-top: 60px;
     width: 100%;
-    font-weight: bolder;
+    font-weight: bolder;*/
   }
   .home {
     display: block;

@@ -35,7 +35,6 @@
           Sanghee Han
           </h1></a>
       </hgroup>
-
     </div>
 
     <nav id="menu">
@@ -46,18 +45,30 @@
           </h1>
         </hgroup>
       </div>
-      <div class="works">
+      <div class="Works">
         <article>
-          <h2>
-            <a href="nat.html">
-              <hgroup>
-                <span class="worktype">branding</span>
-                <span class="worktitle">Nat.</span>
+              <hgroup style="color: rgb(112, 0, 255);">
+                <a href=#>
+                  <h2>
+                  <span class="worktype">[current]</span>
+                  <span class="worktitle">Starry Internet</span>
+                  </h2>
+                </a>
               </hgroup>
-            </a>
-          </h2>
         </article>
-
+        <article class="box fade-in one" id="desc">
+          <p>Building a happier experience in interneting.</p>
+        </article>
+        <article>
+              <hgroup>
+                <a href="nat.html">
+                  <h2>
+                  <span class="worktype">branding</span>
+                  <span class="worktitle">Nat.</span>
+                  </h2>
+                </a>
+              </hgroup>
+        </article>
         <article>
           <h2>
             <a href="sow.html">
@@ -92,15 +103,14 @@
         </article>
 
         <article>
+          <h2>
+            <a href="book.html">
               <hgroup>
-                <h2>
-                  <a href="book.html">
-                    <span class="worktype">book</span>
-                    <span class="worktitle">Writing</span>
-                  </a>
-                </h2>
+                <span class="worktype">book</span>
+                <span class="worktitle">Writing</span>
               </hgroup>
             </a>
+          </h2>
         </article>
         <article>
               <hgroup>
@@ -117,7 +127,7 @@
           <hgroup>
             <h2>
               <a href="venmo.html">
-                <span class="worktype">[WIP]</span>
+                <span class="worktype">interaction</span>
                 <span class="worktitle">Rethinking Venmo</span>
               </a>
             </h2>
@@ -126,15 +136,12 @@
         <article>
           <hgroup>
             <h2>
-              <a href="#" style="color: rgb(112, 0, 255);">
-                <span class="worktype"></span>
-                <span class="worktitle">misc.</span>
+              <a href="misc.html">
+                <span class="worktype">book</span>
+                <span class="worktitle">Gagosian Gallery</span>
               </a>
             </h2>
           </hgroup>
-        </article>
-        <article class="box fade-in one" id="desc">
-          <p>And the others!</p>
         </article>
       </div>
     </nav>
@@ -142,44 +149,26 @@
   <div id="contentbox">
     <div id="maincontent">
       <div class="mobile-name">
-        Misc Projects
+        Starry
       </div>
-      <a href="img/brown1.jpg" class="swipebox">
-      <img src="img/brown1.jpg">
+      <a href="img/starry5.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/starry5.jpg">
       </a>
-      <a href="img/brown2.jpg" class="swipebox">
-      <img src="img/brown2.jpg">
+      <a href="img/starry1.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/starry1.jpg">
       </a>
-      <a href="img/brown5.jpg" class="swipebox">
-      <img src="img/brown5.jpg">
+      <a href="img/starry4.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/starry4.jpg">
       </a>
-      <a href="img/brown3.jpg" class="swipebox">
-      <img src="img/brown3.jpg">
+      <a href="img/starry3.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/starry3.jpg">
       </a>
-      <a href="img/brown4.jpg" class="swipebox">
-      <img src="img/brown4.jpg">
-      </a>
-      <a href="img/franken1.jpg" class="swipebox">
-      <img src="img/franken1.jpg">
-      </a>
-      <a href="img/franken2.jpg" class="swipebox">
-      <img src="img/franken2.jpg">
-      </a>
-      <a href="img/franken3.jpg" class="swipebox">
-      <img src="img/franken3.jpg">
-      </a>
-      <a href="img/franken4.jpg" class="swipebox">
-      <img src="img/franken4.jpg">
-      </a>
-      <a href="img/franken5.jpg" class="swipebox">
-      <img src="img/franken5.jpg">
-      </a>
-      <p style="font-size:.5em;">Designed for Gagosian Gallery during my internship at Tsang Seymour summer 2014 Creative direction by Patrick Seymour, Tsang Seymour and the photos courtesy of Tsang Seymour.</p>
+
       <table class="arrows">
         <tbody>
           <tr valign="middle">
             <td width="20%" align="center">
-              <a href="tpin.html" class="previous">
+              <a href="nyt.html" class="previous">
                 ←
               </a>
             </td>
@@ -189,13 +178,14 @@
           </a>
         </td>
         <td width="20%" align="center">
-          <a href="nyt.html" class="next">
+          <a href="sow.html" class="next">
             →
           </a>
         </td>
       </tr>
       </tbody>
     </table>
+      </div>
     </div>
   </div>
   <script type="text/javascript">
@@ -204,6 +194,7 @@
     	$( '.swipebox' ).swipebox();
 
     } )( jQuery );
+
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 100) {
              $('#name').fadeOut(500);
@@ -213,5 +204,7 @@
          }
     });
 </script>
+
 </body>
+
 </html>
