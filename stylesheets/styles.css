@@ -75,7 +75,7 @@ a:active {
 #name {
   display: block;
   font-family: "gt-sectra",sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: .25px;
 }
 
 #about {
@@ -87,7 +87,7 @@ a:active {
   font-family: "gt-sectra";
   font-weight: lighter;
   font-size: .85em;
-  letter-spacing: .5px;
+  letter-spacing: .25px;
 
   transition: .5s;
 }
@@ -120,7 +120,7 @@ a.selected {
     .worktitle {
       font-family: "gt-sectra";
       font-size: .85em;
-      letter-spacing: .5px;
+      l
 
       transition: .5s;
 
@@ -148,7 +148,6 @@ a.selected {
 }
 .fixed {
   font-family: "gt-sectra";
-  letter-spacing: 1px;
 
 }
 
