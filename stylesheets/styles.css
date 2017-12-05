@@ -1,21 +1,21 @@
 @font-face {
   font-family: "calibre";
   src: url(files/Calibre-Regular.otf);
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: "gt-sectra";
+  src: url(files/GT-Sectra-Fine-Book.ttf);
   font-weight: lighter;
 }
 
 @font-face {
-  font-family: "calibre";
-  src: url(files/Calibre-Medium.otf);
+  font-family: "gt-sectra";
+  src: url(files/GT-Sectra-Fine-Medium.ttf);
   font-weight: normal;
 }
-
-@font-face {
-  font-family: "calibre";
-  src: url(files/Calibre-Medium.otf);
-  font-weight: normal;
-}
-
 html {
 }
 
@@ -24,6 +24,7 @@ body {
   width: 100%;
   font-family: "calibre", sans-serif;
   font-weight: lighter;
+  color: #363636;
 
   transition: 1s;
   -webkit-transition: 1s;
@@ -34,13 +35,12 @@ body {
 
 /*-------general type-------*/
 h1 {
-  font-size: 2em;
+  font-size: 1.75em;
   transition: .5s;
 
 }
 
 h2 {
-  transition: .5s;
   margin: 13px 0;
 }
 
@@ -51,10 +51,11 @@ a {
 a:active {
 }
 
-a:hover {
-  color: rgb(112, 0, 255);
-}
 /*-------menu-------*/
+.fade {
+  color: #bbbbbb;
+
+}
 #nav {
   z-index: 10000000;
   width: 250px;
@@ -73,21 +74,23 @@ a:hover {
 
 #name {
   display: block;
+  font-family: "gt-sectra",sans-serif;
+  letter-spacing: 1px;
 }
 
 #about {
-  font-size: 1em;
+  font-size: 12px;
   z-index: 100;
 }
 
 a.selected {
-  color: rgb(112, 0, 255);
+  color: #363636;
   z-index:100;
 }
 
 .messagepop {
   background-color:#FFFFFF;
-  border:3px solid rgb(112, 0, 255);
+  border:2px solid #363636;
   cursor:default;
   display: none;
   margin-top: 130px;
@@ -107,7 +110,9 @@ a.selected {
 }
 
     .worktitle {
-      font-size: 1em;
+      font-family: "gt-sectra";
+      font-size: .85em;
+      letter-spacing: .5px;
 
       transition: .5s;
 
@@ -115,7 +120,7 @@ a.selected {
 
     .worktype {
       font-weight:lighter;
-      font-size: .5em;
+      font-size: 12px;
 
       margin-left: -80px;
       margin-top: 9px;
@@ -130,10 +135,12 @@ a.selected {
   top: 80px;
   width: 185px;
 
-  transition: .5s
+  transition: .25s
 
 }
 .fixed {
+  font-family: "gt-sectra";
+  letter-spacing: 1px;
 
 }
 
@@ -196,7 +203,8 @@ article p{
   background:url(http://sangheehan.com/img/small/nat/guideline2.jpg);
 }
 .overlay {
-  background:rgba(112, 0, 255, .8);
+  background: #363636;
+  opacity: .8;
   text-align:center;
   padding:45px 0 66px 0;
   opacity:0;
@@ -268,7 +276,7 @@ article p{
   display: none;
 }
 .box p {
-  color:rgb(112, 0, 255);
+  color: inherit;
 }
 /*-------maincontent-------*/
 #contentbox {
@@ -297,8 +305,8 @@ transition: .5s;
   line-height: 1.5em;
 
 }
-.underline {
-  color: rgb(112, 0, 255);
+. {
+  color: #363636;
 }
 .caption {
   font-size: .75em;
@@ -319,7 +327,7 @@ transition: .5s;
   width: 100%;
 }
 .borderchange {
-  border: 2px solid  rgb(112, 0, 255);
+  border: 2px solid  #363636;
 }
 
 .arrows{
@@ -330,11 +338,11 @@ transition: .5s;
 .previous , .next {
   font-size: 2em;
   font-weight: bold;
-  color: rgb(112, 0, 255);
+  color: #363636;
 }
 
 .home {
-  color: rgb(112, 0, 255);
+  color: #363636;
   display: none;
 }
 .next {
@@ -393,11 +401,11 @@ transition: .5s;
   .previous , .next {
     font-size: 2em;
     font-weight: bold;
-    color: rgb(112, 0, 255);
+    color: #363636;
   }
 
   .home {
-    color: rgb(112, 0, 255);
+    color: #363636;
     display: none;
   }
   .next {
