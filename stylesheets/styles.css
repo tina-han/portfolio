@@ -448,8 +448,8 @@ transition: .5s;
     width: 100% !important;
   }
   .mobile-name {
+    font-family: "gt-sectra";
     display:block;
-    font-weight:bold;
     font-size: 1em;
     margin-bottom: 20px;
   }
