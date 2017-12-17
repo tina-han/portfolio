@@ -35,7 +35,6 @@
           Sanghee Han
           </h1></a>
       </hgroup>
-
     </div>
 
     <nav id="menu">
@@ -47,7 +46,7 @@
           </h1>
         </hgroup>
       </div>
-      <div class="works">
+      <div class="Works">
         <article>
               <hgroup style="color: #bbbbbb;">
                 <a href="starry.html">
@@ -59,25 +58,29 @@
               </hgroup>
         </article>
         <article>
-          <h2>
-            <a href="nat.html">
               <hgroup style="color: #bbbbbb;">
-                <span class="worktype">branding</span>
-                <span class="worktitle">Nat.</span>
+                <a href="nat.html">
+                  <h2>
+                  <span class="worktype">branding</span>
+                  <span class="worktitle">Nat.</span>
+                  </h2>
+                </a>
               </hgroup>
-            </a>
-          </h2>
         </article>
-        <!-- <article>
-              <hgroup style="color: #bbbbbb">
-                <a href="nat-installation.html">
+        <article>
+              <hgroup>
+                <a href="#">
                   <h2>
                   <span class="worktype">interactive</span>
                   <span class="worktitle">Big, Mini World</span>
                   </h2>
                 </a>
               </hgroup>
-        </article> -->
+        </article>
+        <article class="box fade-in one" id="desc">
+          <p>Permanent interactive installation at the Nat.—personal project</p>
+        </article>
+
         <article>
           <h2>
             <a href="sow.html">
@@ -101,15 +104,14 @@
         </article> -->
 
         <article>
+          <h2>
+            <a href="book.html">
               <hgroup style="color: #bbbbbb;">
-                <h2>
-                  <a href="book.html">
-                    <span class="worktype">book</span>
-                    <span class="worktitle">Writing</span>
-                  </a>
-                </h2>
+                <span class="worktype">book</span>
+                <span class="worktitle">Writing</span>
               </hgroup>
             </a>
+          </h2>
         </article>
         <article>
           <hgroup style="color: #bbbbbb;">
@@ -120,22 +122,18 @@
               </a>
             </h2>
           </hgroup>
-        </article>
+          <article id="venmo">
+            <hgroup style="color: #bbbbbb;">
+              <h2>
+                <a href="venmo.html">
+                  <span class="worktype">[WIP]</span>
+                  <span class="worktitle">Rethinking Apps</span>
+                </a>
+              </h2>
+            </hgroup>
+          </article>
 
-        <article id="venmo">
-          <hgroup>
-            <h2>
-              <a href="venmo.html">
-                <span class="worktype">[WIP]</span>
-                <span class="worktitle">Rethinking Apps</span>
-              </a>
-            </h2>
-          </hgroup>
         </article>
-        <article class="box fade-in one" id="desc">
-          <p>App additions and changes that I think about — ongoing personal project</p>
-        </article>
-
         <div class="fixed">
           <hgroup>
             <h1><br>
@@ -151,24 +149,48 @@
   <div id="contentbox">
     <div id="maincontent">
       <div class="mobile-name">
-        Rethinking Apps
+        Nat.
       </div>
-      <a href="img/sample.gif" class="swipebox">
-      <img src="img/sample.gif">
+      <a href="img/page1_5.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/page.jpg">
       </a>
-      <!-- <a href="img/brown1.jpg" class="swipebox">
-      <img src="img/brown1.jpg">
-      </a> -->
-      <div class="paragraph">
-        <p>
-        Venmo — I want to be able to mark certain transactions as important or have a way to search for previous ones (like monthly utilities).
-        </p>
+
+      <div class="paragraph" >
+      <p><inline style="color:rgb(149, 201, 69)">Big, Mini World</inline>—interative installation</p>
+
+      <p>
+        As a natural history museum, the Nat explores the entirety of Earth’s
+        residues. In that sense, the Nat is a frozen microcosm of this planet.
+        By taking an everyday object and blowing it up to a world of its own,
+        the Big, Mini World explores the opposite.
+      </p>
       </div>
+      <!-- <a href="img/page14.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/small/nat/page14.jpg">
+      </a> -->
+      <a href="img/page15.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/small/nat/page15.jpg">
+      </a>
+      <div class="paragraph">
+        <p>As a permanent installation in the museum,
+        it encourages all the visitors to bring their own sample
+        of their world. It could be anything from leaves to a dustball
+        in their desk drawers. With the help of an assistant, the visitor will
+        receive a specimen inside a glass slide, which will be placed under the
+        Nat Microscope. In a matter of seconds, they will experience a world of
+        a vast smallness.</p>
+      </div>
+      <a href="img/page16.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/small/nat/page16.jpg">
+      </a>
+      <!-- <a href="img/page17.jpg" class="swipebox" rel="gallery-1">
+        <img src="img/small/nat/page17.jpg">
+      </a> -->
       <table class="arrows">
         <tbody>
           <tr valign="middle">
             <td width="20%" align="center">
-              <a href="nyt.html" class="previous">
+              <a href="starry.html" class="previous">
                 ←
               </a>
             </td>
@@ -178,13 +200,14 @@
           </a>
         </td>
         <td width="20%" align="center">
-          <a href="gg.html" class="next">
+          <a href="sow.html" class="next">
             →
           </a>
         </td>
       </tr>
       </tbody>
     </table>
+      </div>
     </div>
   </div>
   <script type="text/javascript">
@@ -193,6 +216,7 @@
     	$( '.swipebox' ).swipebox();
 
     } )( jQuery );
+
     $(window).bind('scroll', function() {
          if ($(window).scrollTop() > 100) {
              $('#name').fadeOut(500);
@@ -202,5 +226,7 @@
          }
     });
 </script>
+
 </body>
+
 </html>
