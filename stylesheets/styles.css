@@ -37,18 +37,32 @@ body {
 h1 {
   font-size: 1.75em;
   transition: .5s;
-
 }
+
 
 h2 {
   margin: 13px 0;
 }
 
+.paragraph h3{
+  font-family: "gt-sectra",sans-serif;
+  font-size: 1.75em;
+}
+
+.paragraph h4{
+  font-family: "gt-sectra",sans-serif;
+  font-size: 1em;
+}
 a {
   text-decoration: none;
   color: inherit;
 }
 a:active {
+}
+
+hr {
+  color: #e6e6e6 !important;
+  border-style: solid;
 }
 
 /*-------menu-------*/
