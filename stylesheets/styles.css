@@ -65,6 +65,10 @@ hr {
   border-style: solid;
 }
 
+hr .mobileonly {
+  margin: 100px 0 100px 0;
+}
+
 /*-------menu-------*/
 .fade {
   color: #bbbbbb;
@@ -171,6 +175,7 @@ a.selected {
 article p{
   font-weight: lighter;
   font-size: .75em;
+  line-height: 1.5em;
 }
 #description {
   display: none;
@@ -365,6 +370,9 @@ transition: .5s;
 
 }
 
+.mobileonly {
+  display: none;
+}
 /*-------Screen..-------*/
 
 @media only screen and (min-width: 1200px) {
@@ -449,6 +457,9 @@ transition: .5s;
   }
 }
 @media only screen and (max-width: 760px) {
+  .mobileonly {
+    display: block;
+  }
   .mobile-about {
     display:block;
     margin-bottom: 30px;
